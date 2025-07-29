@@ -123,7 +123,7 @@ def menu():
         print("4.Delete Employee:")
         print("5.Save to file:")
         print("6.Load from file:")
-        print("8.Exit:")
+        print("7.Exit:")
         
         choice =input("Enter the Choice:")
         
@@ -165,7 +165,7 @@ def menu():
             
             load_from_file(filename)
         
-        elif choice == "8":
+        elif choice == "7":
             break
         
 
