@@ -1,3 +1,3 @@
-200 :->durga,23,30000,CSE
-203 :->krishna,21,40000,IT
-205 :->bhuvana,23,40000,ECE
+200,durga,23,30000,CSE
+203,krishna,21,40000,IT
+205,bhuvana,23,40000,ECE
