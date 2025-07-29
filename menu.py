@@ -68,7 +68,7 @@ def save_to_file(filename):
             
             for emp_id,details in employees.items():
                 
-                line =f"{emp_id} :->{details['Name']}\n,{details['Age']}\n,{details['Salary']}\n,{details['Department']}\n"            
+                line =f"{emp_id} :->{details['Name']},{details['Age']},{details['Salary']},{details['Department']}\n"            
                 file.write(line)
                 
         print("Employee Data saved successfully.....!")
